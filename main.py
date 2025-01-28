@@ -123,5 +123,8 @@ def blog():
 
 # comment the below lines before deployment
 # if __name__ == '__main__':
-#     app.run(debug=True)
+#     app.run()
+
+#note: While deploying on render gunicorn main:app should be there , by default main will be written as app, 
+# change it to main for successful deployment
 
